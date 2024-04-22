@@ -1,0 +1,21 @@
+{
+    "name": "michel-souza/tdd-php",
+    "autoload": {
+        "psr-4": {
+            "michelsouza\\classes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michel Souza",
+            "email": "91084191+MichelNsouza@users.noreply.github.com"
+        }
+    ],
+     "scripts": {
+         "test": ".\\vendor\\bin\\phpunit --bootstrap vendor/autoload.php test/ --colors=always --testdox"
+
+     },
+      "require-dev": {
+          "phpunit/phpunit": "^8.0"
+      }
+}
